@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    padding:40px;
+}
+
+.container{
+    width:100%;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:50PX;
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+/* Table Styling */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:40px;
+    background-color: rgb(220, 243, 251);
+}
+
+th{
+    background:#2c3e50;
+    color:white;
+    padding:10px;
+    text-align:left;
+}
+
+td{
+    border:1px solid #999;
+    padding:10px;
+}
+
+/* Contact Form */
+.contact-box{
+    width:70%;
+    margin:auto;
+    background:#b7e4a8;
+    padding:30px;
+    border-radius:40px;
+}
+
+.contact-box h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.form-group{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.form-group label{
+    width:100px;
+    font-weight:bold;
+}
+
+.form-group input,
+.form-group textarea{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    display:block;
+    margin:20px auto 0;
+    padding:10px 25px;
+    background:#99a0a4;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1a252f;
+}
