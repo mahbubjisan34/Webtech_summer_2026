@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add to Cart Component</title>
+<script src="script.js" defer></script>
+<style>
+       .cart-box {
+           border: 2px solid #333;
+           padding: 20px;
+           width: 250px;
+           font-family: Arial, sans-serif;
+           border-radius: 5px;
+           background-color: #f9f9f9;
+       }
+       .form-group {
+           margin-bottom: 15px;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+       }
+       .form-group label {
+           font-weight: bold;
+       }
+       input[type="number"] {
+           width: 60px;
+           padding: 5px;
+           text-align: center;
+       }
+       .payable-box {
+           border: 1px solid #777;
+           padding: 5px 10px;
+           min-width: 60px;
+           text-align: center;
+           background-color: #fff;
+           display: inline-block;
+       }
+       .btn-add {
+           width: 100%;
+           padding: 10px;
+           background-color: #28a745;
+           color: white;
+           border: none;
+           border-radius: 3px;
+           cursor: pointer;
+           font-weight: bold;
+       }
+       .btn-add:hover {
+           background-color: #218838;
+       }
+</style>
+</head>
+<body>
+<div class="cart-box">
+<div class="form-group">
+<label>Unit Price:</label>
+<span>$100</span>
+</div>
+<div class="form-group">
+<label for="quantity">Quantity:</label>
+<input type="number" id="quantity" value="5" min="1" max="100">
+</div>
+<div class="form-group">
+<label>Payable:</label>
+<div id="payable" class="payable-box">$500</div>
+</div>
+<button class="btn-add" id="addToCartBtn">Add to Cart</button>
+</div>
+</body>
+</html>
+ 
+ 
+ 
